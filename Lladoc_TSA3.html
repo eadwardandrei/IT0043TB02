@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lladoc_TSA3: Pokémon Form</title>
+  
+<style>
+	table {
+    .type-normal {
+    bgcolor = "black" color: white;
+    } .type-water {
+    bgcolor = "blue" color: white;
+    }
+   </style>
+   
+</head>
+
+<body align = "center">
+<form action = "#" name = "form_submit" method = "post">
+
+<label for = "number">National Dex:</label>
+<input type = "number" name = "" id = "number" min = "0" max = "100"> <br><br>
+
+<input type = "radio" name = "generation" id = "gen1"><label for = "gen1">Generation 1</label>
+<input type = "radio" name = "generation" id = "gen2"><label for = "gen2">Generation 2</label>
+<input type = "radio" name = "generation" id = "gen3"><label for = "gen3">Generation 3</label>
+<input type = "radio" name = "generation" id = "gen4"><label for = "gen4">Generation 4</label>
+<input type = "radio" name = "generation" id = "gen5"><label for = "gen5">Generation 5</label>
+<input type = "radio" name = "generation" id = "gen6"><label for = "gen6">Generation 6</label>
+<input type = "radio" name = "generation" id = "gen7"><label for = "gen7">Generation 7</label>
+<input type = "radio" name = "generation" id = "gen8"><label for = "gen8">Generation 8</label>
+<input type = "radio" name = "generation" id = "gen9"><label for = "gen9">Generation 9</label>
+
+<br><br>
+
+<label for = "pokemonname">Pokemon Name: </label>
+<input type = "text" name = "pokemonname" id = "pokemonname" readonly>
+
+<br><br>
+
+<label for="pokemonimage">Image:</label><br>
+<input type="file" id="pokemonimage" name="pokemonimage"><br>
+
+<br><br>
+
+<label for="type1">Type 1:</label> 
+<input type="text" id="type1" name="type1" list="type_list"> 
+<label for="type2">Type 2:</label> 
+<input type="text" id="type2" name="type2" list="type_list"> 
+<datalist id="type_list">
+  <option value = "Fire">
+  <option value = "Water">
+  <option value = "Grass">
+  <option value = "Poison">
+  <option value = "Normal">
+  <option value = "Bug">
+  <option value = "Ground">
+  <option value = "Psychic">
+  <option value = "Electric">
+  <option value = "Positive Vibes">
+  <option value = "Flying">
+  </datalist>
+  
+<br><br>
+
+<label for = "evolvefrom">Evolves from: </label>
+<input type = "text" name = "evolvefrom" id = "evolvefrom"> 
+<label for = "evolveto">Evolves to: </label>
+<input type = "text" name = "evolveto" id = "evolveto"> 
+
+<br><br>
+
+<label for = "nickname">Nickname: </label>
+<input type = "text" name = "nickname" id = "nickname"> 
+
+<br><br>
+
+<label for = "date">Birthday:</label>
+<input type = "date" name = "" id = "data"><br><br>
+
+<input type = "submit" name = "submit" id = "submit" <br><br>
+</form> 
+
+<br>
+
+<table border = "1">
+<tr>
+  <th>National Dex</th>
+  <th>Generation</th>
+  <th>Pokemon Name</th>
+  <th>Image</th>
+  <th>Type 1</th>
+  <th>Type 2</th>
+  <th>Evolves From</th>
+  <th>Evolves To</th>
+  <th>Nickname</th>
+  <th>Birthday</th>
+</tr>
+
+<tr>
+<td>0000</td>
+<td>Z</td>
+<td>Eadward Lladoc</td>
+<td><img src = "eadward.jpg" alt = "eadward" width = "100" height "100"></td>
+<td colspan = "2" class = "type-positivevibes">Positive Vibes</td>
+<td>-</td>
+<td>-</td>
+<td>Ead</td>
+<td>07-07-2003</td>
+</tr>
+
+<tr>
+<td>0280</td>
+<td>3</td>
+<td>Ralts</td>
+<td><img src = "ralts.jpg" alt = "ralts" width = "100" height "100"></td>
+<td class = "type-psychic">Psychic</td>
+<td class = "type-fairy">Fairy</td>
+<td>Ralts</td>
+<td>Gardevoir</td>
+<td>Ganda</td>
+<td>12-25-23</td>
+</tr>
+
+<tr>
+<td>0001</td>
+<td>1</td>
+<td>Bulbasaur</td>
+<td><img src = "bulbasaur.jpg" alt = "bulbasaur" width = "100" height "100"></td>
+<td class = "type-grass">Grass</td>
+<td class = "type-poison">Poison</td>
+<td>Bulbasaur</td>
+<td>Venusaur</td>
+<td>Bulby</td>
+<td>01-01-2024</td>
+</tr>
+
+<tr>
+<td>0155</td>
+<td>2</td>
+<td>Cyndaquil</td>
+<td><img src = "cyndaquil.jpg" alt = "cyndaquil" width = "100" height "100"></td>
+<td colspan = "2" class = "type-fire">Fire</td>
+<td>Cyndaquil</td>
+<td>Cyphlosion</td>
+<td>Celestine</td>
+<td>03-28-2018</td>
+</tr>
+
+<tr>
+<td>0013</td>
+<td>1</td>
+<td>Weedle</td>
+<td><img src = "weedle.jpg" alt = "weedle" width = "100" height "100"></td>
+<td class = "type-bug">Bug</td>
+<td class = "type-poison">Poison</td>
+<td>Weedle</td>
+<td>Beedrill</td>
+<td>Bebe</td>
+<td>05-07-21</td>
+</tr>
+
+<tr>
+<td>0276</td>
+<td>3</td>
+<td>Taillow</td>
+<td><img src = "taillow.jpg" alt = "taillow" width = "100" height "100"></td>
+<td class = "type-normal">Normal</td>
+<td class = "type-flying">Flying</td>
+<td>Taillow</td>
+<td>Swellow</td>
+<td>Thalia</td>
+<td>08-31-22</td>
+</tr>
+
+<tr>
+<td>0252</td>
+<td>3</td>
+<td>Treecko</td>
+<td><img src = "treecko.jpg" alt = "treecko" width = "100" height "100"></td>
+<td colspan = "2" class = "type-grass">Grass</td>
+<td>Treecko</td>
+<td>Sceptile</td>
+<td>Treckie</td>
+<td>03-03-17</td>
+</tr>
+
+<tr>
+<td>0152</td>
+<td>2</td>
+<td>Chikorita</td>
+<td><img src = "chikorita.jpg" alt = "chikorita" width = "100" height "100"></td>
+<td colspan = "2" class = "type-grass">Grass</td>
+<td>Chikorita</td>
+<td>Meganium</td>
+<td>Chipay</td>
+<td>07-07-03</td>
+</tr>
+
+<tr>
+<td>0194</td>
+<td>2</td>
+<td>Wooper</td>
+<td><img src = "wooper.jpg" alt = "wooper" width = "100" height "100"></td>
+<td class = "type-water">Water</td>
+<td class = "type-ground">Ground</td>
+<td>Wooper</td>
+<td>Quagsire</td>
+<td>Woopie</td>
+<td>11-07-19</td>
+</tr>
+
+<tr>
+<td>0258</td>
+<td>3</td>
+<td>Mudkip</td>
+<td><img src = "mudkip.jpg" alt = "mudkip" width = "100" height "100"></td>
+<td colspan = "2" class = "type-water">Water</td>
+<td>Mudkip</td>
+<td>Swampert</td>
+<td>Muddy</td>
+<td>11-20-20</td>
+</tr>
+
+<br><br>
+
+</table>
+</body>
+</html>
