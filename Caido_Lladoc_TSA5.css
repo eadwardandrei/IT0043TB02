@@ -91,7 +91,7 @@ body {
 }
  
 .typenormal {
-    background-color: #a8a878;
+    background-color: #9FA19F;
     color: white;
     padding: 5px;
     border-radius: 5px;
@@ -109,7 +109,7 @@ body {
 }
 
 .typepsychic {
-    background-color: #a280cc;
+    background-color: #EF4179;
     color: white;
     padding: 5px;
     border-radius: 5px;
@@ -127,7 +127,7 @@ body {
 }
 
 .typedark {
-    background-color: #8c8c8c;
+    background-color: #624D4E;
     color: white;
     padding: 5px;
     border-radius: 5px;
