@@ -1,0 +1,180 @@
+
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: beige;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+} 
+ 
+.container {
+    width: 40%;
+    flex-wrap: wrap;
+    justify-content: center; 
+    width: 100%;
+    max-width: 1500px; 
+    padding: 50px;
+    box-sizing: border-box;
+    text-align: center;
+}
+ 
+.card {
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+    width: 310px;
+    overflow: hidden;
+    text-align: center;
+    position: relative;
+    box-shadow: 7px 7px 9px black;
+    display: inline-block;
+}
+
+.image {
+    background-image: url(pokeball.png);
+    background-size: cover;
+    background-position: center;
+    box-shadow: 7px 7px 7px black;
+}
+ 
+.image img {
+    width: 100%;
+    height: 250px;
+}
+ 
+.detailsyellow {
+    padding: 15px;
+    background-color: #f4bc1c;
+}
+
+.detailsbrown {
+    padding: 15px;
+    background-color: #C4A484;
+}
+ 
+.detailspink {
+    padding: 15px;
+    background-color: pink;
+}
+
+.detailsred {
+    padding: 15px;
+    background-color: #8C0D07;
+}
+
+.detailsdark {
+    padding: 15px;
+    background-color: #4F4F4F;
+}
+
+.detailsblue {
+    padding: 15px;
+    background-color: #00008B;
+}
+
+.name {
+    font-size: 1.5em;
+    margin: 10px;
+    color: white;
+    text-shadow: 1px 1px 5px black;
+}
+ 
+.type {
+    font-weight: bold;
+    color: white;
+    margin: 1px;
+}
+ 
+.typenormal {
+    background-color: #a8a878;
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+    display: inline-block;
+    margin: 5px 0;
+}
+
+.typeelectric {
+    background-color: #dda827;
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+    display: inline-block;
+    margin: 5px 0;
+}
+
+.typepsychic {
+    background-color: #a280cc;
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+    display: inline-block;
+    margin: 5px 0;
+}
+
+.typefire {
+    background-color: #ff6169;
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+    display: inline-block;
+    margin: 5px 0;
+}
+
+.typedark {
+    background-color: #8c8c8c;
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+    display: inline-block;
+    margin: 5px 0;
+}
+
+.typewater {
+    background-color: #0077b6;
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+    display: inline-block;
+    margin: 5px 0;
+}
+ 
+.desc {
+    font-size: 90%;
+    margin: 10px;
+    color: white;
+}
+ 
+.buttons {
+    justify-content: space-around;
+    margin: 1px;
+}
+ 
+.add {
+    padding: 6px 7px;
+    border: none;
+    border-radius: 5px;
+    background-color: #1f3b4d;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin: 1px;
+}
+
+.release {
+    padding: 6px 7px;
+    border: none;
+    border-radius: 5px;
+    background-color: #AA336A;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin: 1px;
+}
+ 
+.buttons button:hover {
+    background-color: #0056b3;
+}
