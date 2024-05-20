@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&family=Rubik+Pixels&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Rubik+Pixels&display=swap');
 
 body {
     font-family: Arial, sans-serif;
@@ -147,7 +148,7 @@ body {
     font-size: 90%;
     margin: 10px;
     color: white;
-    font-family: "Pixelify Sans";
+    font-family: "Roboto Mono";
 }
  
 .buttons {
