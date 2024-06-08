@@ -15,12 +15,13 @@ body {
 }
 
 .grid-container{
-    width: 95vw;
+    width: 90vw;
     margin: 10px auto;
     display: grid;
     gap: 12px;
     grid-template-columns: repeat(auto-fill, minmax(450px, 1fr));
-    justify-content: space-around;
+    justify-content: center;
+    padding: 10px;
 }
 
 .box{
@@ -101,9 +102,5 @@ img{
     #breach, #raze, #skye, #omen, #jett {
         grid-column: auto;
         grid-row: auto;
-    }
-
-    .box {
-        
     }
 }
