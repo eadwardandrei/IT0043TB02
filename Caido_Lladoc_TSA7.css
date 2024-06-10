@@ -1,130 +1,336 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Caido_Lladoc_TSA7</title>
-    <link rel="stylesheet" href="Caido_Lladoc_TSA7.css" />
-  </head>
-  <body>
-    <nav class="nav">
-      <div class="container">
-        <div class="logo">VALORANT</div>
-        <ul class="menu-list">
-          <li class="menu-li"><a href="#" class="menu-a">Home</a></li>
-          <li class="menu-li"><a href="#" class="menu-a">Agents</a></li>
-          <li class="menu-li"><a href="#" class="menu-a">Game</a></li>
-          <li class="menu-li"><a href="#" class="menu-a">Developers</a></li>
-          <li class="menu-li"><a href="#" class="menu-a">Riot</a></li>
-        </ul>
-      </div>
-    </nav>
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
-    <main>
-      <div class="container">
+*{
+    font-family: "Poppins"
+}
 
-        <div class="main-image">
-          <img src="valorantpic.jpg" alt="" class="main-img" />
-        </div>
+.container{
+    width: 90vw;
+    margin: 0 auto;
+}
 
-        <div class="sub-image">
-          <img src="valorantnews.jpg" alt="" class="sub-img" />
-        </div>
+nav{
+    background-color: black;
+    color: white;
+    padding: 10px 0;
+    height: fit-content;
+    margin-bottom: 10px;
+}
 
-        <div class="news">
-          <div class="article">
-            <h1 class="article-title">
-              Fil-Am VALORANT ace, zekken, and streamer TenZ are champs!
-            </h1>
-            <p class="article-content">
-              SENTINELS HAVE FINALLY SILENCED their critics as they clawed their
-              way against the best VALORANT teams in the world and secured the
-              VCT 2024: Masters Madrid championship over South Korean
-              powerhouse, Gen.G Esports, in a thrilling 3-2 finale.
-            </p>
-          </div>
-          <button class="button-24" role="button">Read more!</button>
-        </div>
+nav .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
 
-        <div class="updates">
-          <h1 class="updates-header">Updates</h1>
-          <div class="updates-article">
-            <h2 class="updates-h2">VALORANT PATCH NOTES 8.10</h2>
-            <p class="updates-p">
-              We are releasing an update to our Welcome Contract for new
-              players! The new structure includes clearer missions and
-              milestones to help you navigate the New Player Experience.
-            </p>
-          </div>
-          
-          <div class="updates-article">
-            <h2 class="updates-h2">VALORANT PATCH NOTES 8.09</h2>
-            <p class="updates-p">
-              We’ve done some small updates to Brimstone’s Sky Smoke (E) to
-              ensure that it fully covers the area indicated by the UI when you
-              are placing it.
-            </p>
-          </div>
+.logo{
+    font-family: "Bebas Neue";
+    font-size: 2rem;
+    color: 	#fd4556;
+}
 
-          <div class="updates-article">
-            <h2 class="updates-h2">VALORANT PATCH NOTES 8.08</h2>
-            <p class="updates-p">
-              Since his updates in 7.09, we’ve been excited to see Cypher
-              solidify a stronger spot on the Sentinel roster, but feel it’s
-              pushed his stalling power further than we’d like for an Agent that
-              specializes in global information.
-            </p>
-          </div>
-        </div>
+.menu-list{
+    display: flex;
+}
 
-        <div class="featured" id = "brim">
-          <img src="brimcard.png" alt="" class="featured-img"/>
-          <div class="featured-desc">
-            <h1 class="featured-name">Brimstone</h1>
-            <h2 class="featured-role">Controller</h2>
-            <p class="featured-quote">
-              “If any of you got a problem on me, take it out on my double.”
-            </p>
-            <p class="featured-info">
-              A seasoned commander with tactical expertise, Brimstone brings
-              strategic superiority to the battlefield with his arsenal of
-              smokescreens and orbital strikes, guiding his team to victory with
-              precision and authority.
-            </p>
-          </div>
-        </div>
+.menu-li{
+    list-style: none;
 
-        <div class="featured" id = "raze">
-          <img src="razecard.png" alt="" class="featured-img" />
-          <div class="featured-desc">
-            <h1 class="featured-name">Raze</h1>
-            <h2 class="featured-role">Duelist</h2>
-            <p class="featured-quote">“Here comes the party!”</p>
-            <p class="featured-info">
-              Explosive and relentless, Raze leaves a trail of chaos in her wake
-              with her explosive arsenal of grenades and a devastating rocket
-              launcher, striking fear into the hearts of her enemies as she
-              dominates the battlefield with fiery determination.
-            </p>
-          </div>
-        </div>
+}
 
-        <div class="featured" id = "skye">
-          <img src="skyecard.png" alt="" class="featured-img"/>
-          <div class="featured-desc">
-            <h1 class="featured-name">Skye</h1>
-            <h2 class="featured-role">Initiator</h2>
-            <p class="featured-quote">"And that's full time! Good stuff."</p>
-            <p class="featured-info">
-              A nurturing spirit with a fierce edge, Skye commands the power of
-              nature to support her team, unleashing a menagerie of beasts to
-              scout enemies and heal allies, ensuring her squad's survival with
-              her unwavering loyalty and keen instincts.
-            </p>
-          </div>
-        </div>
-      </div>
-    </main>
-  </body>
-</html>
+.menu-li > a{
+    text-decoration: none;
+    color: white;
+    padding-left: 25px;
+}
 
+.menu-li > a:hover{
+    color: #bd3944;
+}
+
+main .container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 40% 35% auto;
+    height: 700px;
+    grid-gap: 20px;
+    margin: 20px auto;
+}
+
+
+
+  .main-image{
+    grid-column: 1/3;
+    grid-row: 1/2;
+    object-position: left;
+  }
+
+  .main-img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    box-shadow: 5px 5px 6px black;
+    border-radius: 7px;
+  }
+
+  .sub-image{
+    grid-column: 1/2;
+    grid-row: 2/3;
+  }
+
+  .sub-img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: left;
+    border-radius: 7px;
+    box-shadow: 5px 5px 6px black;
+  }
+
+  .news{
+    grid-column: 2/3;
+    grid-row: 2/3;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 10px;
+    background-color: #53212b;
+    color: white;
+    border: 2px solid #53212b;
+    border-radius: 7px;
+    box-shadow: 5px 5px 6px black;
+  }
+
+  .article{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .article-title{
+    font-size: 1rem;
+    text-align: justify;
+  }
+
+  .article-content{
+    font-size: 0.8rem;
+    line-height: 1.5;
+    text-align: justify;
+  }
+
+  .button-24 {
+    background: #fd4556;
+    border: 1px solid #fd4556;
+    border-radius: 6px;
+    box-shadow: rgba(0, 0, 0, 0.1) 1px 2px 4px;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    cursor: pointer;
+    display: inline-block;
+    font-family: nunito,roboto,proxima-nova,"proxima nova",sans-serif;
+    font-size: 13px;
+    font-weight: 800;
+    line-height: 15px;
+    min-height: 35px;
+    outline: 0;
+    padding: 10px 10px;
+    text-align: center;
+    text-rendering: geometricprecision;
+    text-transform: none;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    vertical-align: middle;
+  }
+  
+  .button-24:hover,
+  .button-24:active {
+    background-color: initial;
+    background-position: 0 0;
+    color: #fd4556;
+  }
+  
+  .button-24:active {
+    opacity: .5;
+  }
+
+  .updates{
+    background-color: #152238;
+    grid-column: 3/4;
+    grid-row: 1/3;
+    color: white;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    border-radius: 7px;
+    box-shadow: 5px 5px 6px black;
+  }
+
+  .updates-article{
+    display: flex;
+    flex-direction: column;
+    background-color: #152238;
+    border-radius: 7px;
+  }
+
+  .updates-header{
+    color: 	#fd4556;
+    font-size: 1.5rem;
+  }
+
+  .updates-h2{
+    font-size: 1.2rem;
+  }
+
+  .updates-p{
+    font-size: 0.8rem;
+    text-align: justify;
+    line-height: 1.5;
+  }
+
+  .featured{
+    display: grid;
+    grid-template-columns: 30% auto;
+    grid-gap: 10px;
+    align-items: center;
+    padding: 10px;
+    background-color: #bd3944;
+    border-radius: 7px;
+    box-shadow: 5px 5px 6px black;
+    color: white;
+  }
+
+  .featured-img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .featured-desc{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+
+  .featured-name{
+    font-size: 1.3rem;
+  }
+
+  .featured-role{
+    font-size: 0.9rem;
+  }
+
+  .featured-quote{
+    font-size: 0.7rem;
+    font-style: italic;
+  }
+
+  .featured-info{
+    font-size: 0.6rem;
+    text-align: justify;
+  }
+
+  .featured:hover {
+    z-index: 100;
+    transform: scale(1.1);
+    transition: 0.4s ease;
+    background-color: #BD817F;
+  }
+
+  .updates-article:hover {
+    z-index: 100;
+    transform: scale(1.1);
+    transition: 0.4s ease;
+    background-color: #717788;
+  }
+
+  .logo:hover {
+    color: #BD817F;
+  }
+
+
+@media (max-width: 1000px) {
+    main .container {
+        grid-template-columns: repeat(2, fr);
+        grid-template-rows: auto;
+        height: auto;
+    }
+
+    .main-image {
+        grid-column: 1 / 4;
+        grid-row: auto;
+    }
+
+    .sub-image {
+        grid-column: 1 / 3;
+        grid-row: auto;
+    }
+
+    .news {
+        grid-column: 4 / 3;
+        grid-row: auto;
+    }
+
+    .updates {
+        grid-column: 1 / 4;
+        grid-row: auto;
+    }
+
+    #brim {
+        grid-column: 1/4;
+        grid-row: auto;
+    }
+
+    #raze {
+        grid-column: 1/3;
+        grid-row: auto;
+    }
+
+    #skye {
+        grid-column: 4/3;
+        grid-row: auto;
+    }
+}
+
+
+@media (max-width: 650px) {
+    main .container {
+        grid-template-columns: 1fr;
+        grid-template-rows: auto;
+        height: auto;
+    }
+
+    .main-image,
+    .sub-image,
+    .news,
+    .updates {
+        grid-column: 1/4;
+        grid-row: auto;
+    }
+
+    .main-img,
+    .sub-img,
+    .news,
+    .updates {
+        height: auto;
+    }
+
+    
+    #brim {
+        grid-column: 1/4;
+        grid-row: auto;
+    }
+
+    #raze {
+        grid-column: 1/4;
+        grid-row: auto;
+    }
+
+    #skye {
+        grid-column: 1/4;
+        grid-row: auto;
+    }
+    
+}
