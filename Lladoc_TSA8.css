@@ -1,0 +1,344 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lemon&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Chewy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Freeman&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Madimi+One&display=swap');
+
+body {
+    font-family: "Poppins";
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    padding: 20px;
+    background-color: palevioletred;
+    height: 100vh;
+    box-sizing: border-box;
+}
+
+.bg {
+    background-image: url(barbieeebg.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.headline {
+    font-family: "Lemon";
+    text-align: center;
+    font-size: 2.9rem;
+    color: white;
+    background-color: #DE3163;
+    border-radius: 10px;
+    padding: 15px;
+    background-image: url(barbbg.jpg);
+    background-size: cover;
+    position: center;
+}
+
+.headlinee {
+    font-size: 1.2rem;
+}
+
+.container {
+    display: flex;
+    border-radius: 10px;
+    padding: 20px;
+    align-items: center;
+    width: 100%;
+    max-width: 1200px;
+    justify-content: center;
+    gap: 10px;
+}
+
+.title {
+    color: palevioletred;
+    font-weight: 500;
+    font-size: 1.7rem;
+    margin-bottom: 1px;
+    margin-top: 1px;;
+    font-family: "Chewy";
+}
+
+.titlee {
+    color: palevioletred;
+    font-weight: 500;
+    font-size: 1.2rem;
+    margin-bottom: 1px;
+    margin-top: 10px;;
+    font-family: "Chewy";
+}
+
+.titledesc {
+    color: white;
+    text-shadow: 1px 1px 4px black;
+}
+
+.rf {
+    background-color: #F7EEED;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.fd {
+    background-color: #F7EEED;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.jf {
+    background-color: #F7EEED;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.ai {
+    background-color: #F7EEED;
+    padding: 10px;
+    border-radius: 10px;
+    
+}
+
+.g {
+    background-color: #F7EEED;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.fg {
+    background-color: #F7EEED;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.controlsdiv, .controlsdivv {
+    width: 40%;
+    margin: 10px;
+   
+}
+
+.controlsdiv div, .controlsitem div, .controlsdivv div {
+    margin-bottom: 7px;
+    align-items: center;
+    flex-direction: column;
+    display: flex;
+}
+
+.controlsdiv button {
+    margin-right: 10px;
+    padding: 5px 10px;
+}
+
+.controlsdivv button {
+    margin-right: 10px;
+    padding: 5px 10px;
+}
+
+.controlsitem button {
+    margin-right: 10px;
+    padding: 5px 10px;
+}
+
+.controlsitem .controlsitembuttons {
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.resetflexbox {
+    background-color: palevioletred;
+    border-color: palevioletred;
+    border-radius: 10px;
+    margin-right: 5px;
+    color: white;
+    font-family: "Madimi One";
+}
+
+.resetflexbox:hover {
+    background-color: #F4BBD3;
+    border-color: #F4BBD3;
+    color: white;
+    transition: 0.4 ease;
+    transform: scale(1.1);
+}
+
+.flexdirection {
+    background-color: palevioletred;
+    border-color: palevioletred;
+    width: 70px;
+    border-radius: 10px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    color: white;
+    font-family: "Madimi One";
+}
+
+.flexdirection:hover {
+    background-color: #F4BBD3;
+    border-color: #F4BBD3;
+    color: white;
+    transition: 0.4 ease;
+    transform: scale(1.1);
+}
+
+.justifycontent {
+    background-color: palevioletred;
+    border-color: palevioletred;
+    width: 150px;
+    border-radius: 10px;
+    margin-right: 5px;
+    margin-bottom: 1px;
+    color: white;
+    font-family: "Madimi One";
+}
+
+.justifycontent:hover {
+    background-color: #F4BBD3;
+    border-color: #F4BBD3;
+    color: white;
+    transition: 0.4 ease;
+    transform: scale(1.1);
+}
+
+.alignitems {
+    background-color: palevioletred;
+    border-color: palevioletred;
+    width: 80px;
+    border-radius: 10px;
+    margin-right: 5px;
+    margin-bottom: 1px;
+    color: white;
+    font-family: "Madimi One";
+}
+
+.alignitems:hover {
+    background-color: #F4BBD3;
+    border-color: #F4BBD3;
+    color: white;
+    transition: 0.4 ease;
+    transform: scale(1.1);
+}
+
+.flexgrow {
+    background-color: palevioletred;
+    border-color: palevioletred;
+    width: 110px;
+    border-radius: 10px;
+    margin-right: 5px;
+    margin-bottom: 1px;
+    color: white;
+    font-family: "Madimi One";
+}
+
+.flexgrow:hover {
+    background-color: #F4BBD3;
+    border-color: #F4BBD3;
+    color: white;
+    transition: 0.4 ease;
+    transform: scale(1.1);
+}
+
+#gap {
+    background-color: #FFC1CC;
+    border-radius: 10px;
+    padding: 5px;
+    width: 120px;
+    color: white;
+    text-align: center;
+    font-family: "Poppins";
+}
+
+.item {
+    background-color: #CC8899;
+    border-radius: 10px;
+    color: white;
+    margin-top: 1px;
+    font-family: "Madimi One";
+}
+
+.itemm {
+    background-color: #CC8899;
+    padding: 8px;
+    border-radius: 10px;
+    width: 150px;
+    height: 120px;
+}
+
+.itemsize {
+    background-color: palevioletred;
+    border-color: palevioletred;
+    border-radius: 10px;
+    color: white;
+}
+
+#flex-grow-1, #flex-grow-2, #flex-grow-3  {
+    background-color: #FFC1CC;
+    border-radius: 10px;
+    padding: 5px;
+    color: white;
+    text-align: center;
+    width: 50px;
+    font-family: "Poppins";
+    margin-left: 7px;
+}
+
+.flexcontainer {
+    display: flex;
+    position: relative;
+    width: 100%;
+    height: 665px;
+    border: 7px solid #A94064;
+    padding: 10px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+}
+
+.flexcontainer::after {
+    
+    position: absolute;
+    background-image: url('sparkly.jpg');
+    background-size: cover;
+    background-position: center;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    content: "";
+    z-index: -1;
+}
+
+.flexitem {
+    color: white;
+    padding: 50px;
+    text-align: center;
+    border-radius: 10px;
+    font-size: 1.5rem;
+    height: 30px;
+    width: 30px;
+    transition: flex-grow 0.7s ease;
+}
+
+#box1, #box2, #box3 {
+    background-size: 70%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#box1 {
+    background-color: plum;
+    background-image: url(heels.png);
+}
+
+#box2 {
+    background-color: palevioletred;
+    background-image: url(lippie.png);
+}
+
+#box3 {
+    background-color: purple;
+    background-image: url(powder.png);
+}
+
