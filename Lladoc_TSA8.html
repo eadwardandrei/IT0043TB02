@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lladoc_TSA8</title>
+    <link rel="stylesheet" href="Lladoc_TSA8.css" />
+</head>
+<body class = "bg">
+
+    <div class = "container">
+
+    <div class = "controlsdiv">
+
+        <div class = "headline">Barbie's <span class = "headlinee">Flexbox Simulator</span></div>
+
+        <div class = "rf">
+            <p class = "title">Reset Flexbox:</p>
+            <button class = "resetflexbox" data-value = "resetflexbox">Reset Flexbox</button>
+        </div>
+
+        <div class = "fd">
+            <p class = "title">Flex Direction:</p>
+            <div><button class = "flexdirection" data-value = "row">Row</button></div>
+            <div><button class = "flexdirection" data-value = "column">Column</button></div>
+        </div>
+        
+        <div class = "jf">
+            <p class = "title">Justify Content:</p>
+            <div><button class = "justifycontent" data-value = "start">Start</button></div>
+            <div><button class = "justifycontent" data-value = "center">Center</button></div>
+            <div><button class = "justifycontent" data-value = "end">End</button></div>
+            <div><button class = "justifycontent" data-value = "space-between">Space Between</button></div>
+            <div><button class = "justifycontent" data-value = "space-around">Space Around</button></div>
+            <div><button class = "justifycontent" data-value = "space-evenly">Space Evenly</button></div>
+        </div>
+
+        
+        </div>
+        
+
+        <div class = "flexcontainer" id = "flexcontainer">
+           
+            <div class = "flexitem" id = "box1"></div>
+            <div class = "flexitem" id = "box2"></div>
+            <div class = "flexitem" id = "box3"></div>
+        </div>
+        
+        <div class = "controlsdivv"> 
+
+            <div class = "ai">
+                <p class = "title">Align Items:</p>
+                <div><button class = "alignitems" data-value = "start">Start</button></div>
+                <div><button class = "alignitems" data-value = "center">Center</button></div>
+                <div><button class = "alignitems" data-value = "end">End</button></div>
+            </div>
+    
+            <div class = "g">
+                <p class = "title"><label for = "gap">Gap:</label></p>
+                    <input type = "number" id = "gap" min = "0" value = "0">
+            </div>
+    
+            <div class = "fg">
+                <p class = "title">Flex Grow:</p>
+                <div><button class = "flexgrow" id = "reset">Reset</button></div>
+                <div><button class = "flexgrow" id = "growall">Grow All</button></div>
+            
+    
+            <div class = "controlsitem">
+                <p class = "titlee">Item Size:</p>
+                <div class = "itemm">
+                <div>
+                <span class = "item"><label for ="flex-grow-1">Box 1</label>
+                <input type = "number" id = "flex-grow-1" min = "1" value = "1" />
+                </div>
+                <div>
+                <span class = "item"><label for ="flex-grow-2">Box 2</button></label>
+                <input type = "number" id = "flex-grow-2" min = "1" value = "1" />
+                </div>
+                <div>
+                <span class = "item"><label for ="flex-grow-3">Box 3</button></label>
+                <input type = "number" id = "flex-grow-3" min = "1" value = "1" />
+                </div>
+            </div> </div>
+        </div> 
+        </div>
+
+    <script src = "Lladoc_TSA8.js"></script>
+</body>
+</html>
