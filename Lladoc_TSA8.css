@@ -319,10 +319,11 @@ body {
     height: 30px;
     width: 30px;
     transition: flex-grow 0.7s ease;
+    background-size: 70px 70px;
 }
 
 #box1, #box2, #box3 {
-    background-size: 70%;
+    background-size: 70px 70px;
     background-repeat: no-repeat;
     background-position: center;
 }
