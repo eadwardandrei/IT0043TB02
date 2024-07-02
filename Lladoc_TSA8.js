@@ -43,9 +43,9 @@ document.addEventListener('DOMContentLoaded', function () {
         Array.from(flexContainer.children).forEach(item => {
             item.style.flexGrow = 0; 
         });
-        document.getElementById("flex-grow-1").value = "1";
-        document.getElementById("flex-grow-2").value = "1";
-        document.getElementById("flex-grow-3").value = "1";
+        document.getElementById("flex-grow-1").value = "0";
+        document.getElementById("flex-grow-2").value = "0";
+        document.getElementById("flex-grow-3").value = "0";
         document.getElementById("gap").value = "0";
     });
 
