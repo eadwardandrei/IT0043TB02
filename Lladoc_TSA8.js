@@ -46,6 +46,7 @@ document.addEventListener('DOMContentLoaded', function () {
         document.getElementById("flex-grow-1").value = "1";
         document.getElementById("flex-grow-2").value = "1";
         document.getElementById("flex-grow-3").value = "1";
+        document.getElementById("gap").value = "0";
     });
 
     document.querySelectorAll('.flexdirection').forEach(button => {
