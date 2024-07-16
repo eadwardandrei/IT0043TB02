@@ -1,0 +1,539 @@
+@import url("https://fonts.googleapis.com/css2?family=Potta+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Madimi+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Zen+Dots&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Sarina&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Belanosima:wght@400;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Baloo+Chettan+2&family=Calligraffitti&display=swap");
+
+* {
+  margin: 0;
+}
+
+body {
+  background-image: url(navi_page.png);
+  
+  justify-content: center;
+  min-height: 98vh;
+}
+
+.bg {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+
+
+.top_logo {
+  justify-content: start;
+  align-items: center;
+  display: flex;
+  margin-left: 20px;
+}
+
+.full_logo {
+  height: 100px;
+  cursor: pointer;
+  transition: transform 0.3s ease-in-out;
+}
+
+.full_logo:hover {
+  z-index: 100;
+  transform: scale(1.1);
+}
+
+.tabs {
+  display: flex;
+  height: 60px;
+  width: 1600px;
+  padding: 20px;
+  margin-top: 10px;
+}
+
+.container {
+  display: flex;
+  justify-content: end;
+  border-radius: 40px;
+  align-items: center;
+  padding: 20px;
+  margin-left: 490px;
+  background-image: url(slogan_bg.jpg);
+  text-shadow: 1px 1px 1px black;
+}
+
+.menu-list {
+  display: flex;
+  list-style: none;
+  gap: 60px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.menu-li > a {
+  font-size: 1.2rem;
+  font-family: "Zen Dots";
+  color: #ec297b;
+  font-weight: bolder;
+  margin-top: 10px;
+  text-decoration: none;
+  transition: 0.3s all ease;
+}
+
+.menu-la > a {
+  font-size: 1.2rem;
+  font-family: "Zen Dots";
+  color: #fff48b;
+  font-weight: bold;
+  margin-top: 10px;
+  text-decoration: none;
+  transition: 0.3s all ease;
+  background-color: #ec297b;
+  border-radius: 20px;
+  padding: 5px;
+  box-shadow: 1px 1px black;
+}
+
+.menu-li > a:hover {
+  color: #fff48b;
+}
+
+.menu-la > a:hover {
+  color: #ec297b;
+  background-color: #fff48b;
+}
+
+.container2 {
+  gap: 30px;
+  padding: 30px;
+  height: 560px;
+  display: flex;
+  margin-left: 10px;
+}
+
+.abouthead {
+  display: flex;
+  justify-content: center;
+  font-family: "Sarina";
+  color: #fff48b;
+  text-shadow: 2px 1px 2px black;
+  font-size: 3rem;
+
+  height: 40px;
+}
+
+.aboutdescboxes {
+  text-align: center;
+  padding: 1em;
+  width: 500px;
+}
+
+.flip {
+  margin-bottom: 50px;
+  height: 150px;
+  width: 500px;
+  position: relative;
+  > .front,
+  > .back {
+    display: block;
+    transition-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    transition-duration: 1s;
+    transition-property: transform, opacity;
+  }
+  > .front {
+    transform: rotateY(0deg);
+    
+    height: 150px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    border-radius: 40px;
+  }
+  > .back {
+    position: absolute;
+    opacity: 0;
+    top: 0px;
+    left: 0px;
+    width: 460px;
+    height: 110px;
+    transform: rotateY(-180deg);
+    font-family: "Belanosima";
+    color: white;
+    text-shadow: 1px 1px 2px black;
+    font-size: 1.1rem;
+    text-align: start;
+    padding: 20px;
+    background-color: #ec297b;
+    border-radius: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  > .backinfo {
+    color:#ec297b;
+  }
+
+  > .back img {
+    height: 260px;
+  }
+  
+  &:hover {
+    > .front {
+      transform: rotateY(180deg);
+    }
+    > .back {
+      opacity: 1;
+      transform: rotateY(0deg);
+    }
+  }
+  &.flip-vertical {
+    > .back {
+      transform: rotateX(-180deg);
+    }
+    &:hover {
+      > .front {
+        transform: rotateX(180deg);
+      }
+      > .back {
+        transform: rotateX(0deg);
+      }
+    }
+  }
+}
+
+//
+
+.flip {
+  position: relative;
+  display: inline-block;
+  margin-right: 2px;
+  margin-bottom: 1em;
+  width: 100px;
+  > .front,
+  > .back {
+    display: block;
+    color: white;
+    width: inherit;
+    background-size: cover !important;
+    background-position: center !important;
+    height: 220px;
+    padding: 1em 2em;
+    background: #313131;
+    border-radius: 10px;
+    p {
+      font-size: 0.9125rem;
+      line-height: 160%;
+      color: #999;
+    }
+  }
+}
+
+.text-shadow {
+  text-shadow: 1px 1px 2px black;
+  font-family: "Zen Dots";
+  color:#ec297b;
+}
+
+.aboutpicsection {
+    height: 590px;
+    width: 400px;
+    
+    justify-content: center;
+    display: flex;
+}
+
+.aboutpicsection img {
+    height: 600px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.aboutpicsection img:hover{
+    z-index: 100;
+    transform: scale(1.1);
+    filter: drop-shadow(5px 5px 5px #222);
+}
+
+.aboutpiclogo {
+    height: 200px;
+    
+    background-size: cover;
+    border-radius: 50%;
+    justify-content: center;
+    display: flex;
+    transition: transform 0.3s ease-in-out;
+    margin-bottom: 40px;
+}
+
+.aboutpiclogo img {
+    height: 100%;
+    background-image: url(slogan_bg.jpg);
+    box-shadow: 2px 1px 5px black;
+}
+
+.containerabout {
+    display: flex;
+}
+
+.containeraboutlogo {
+    display: grid;
+    
+    height: 550px;
+    margin-left: 80px;
+    
+}
+
+.aboutpiclogo:hover {
+    z-index: 100;
+    transform: scale(1.1);
+}
+
+.aboutdescription {
+    background-color: rgba(220, 82, 133, 0.333);
+    height: 300px;
+    width: 500px;
+    border-radius: 40px;
+    display: flex;
+    align-items: center;
+    text-align: justify;
+    justify-content: center;
+    padding: 15px;
+}
+
+
+.aboutdeschead {
+    font-family: "Sarina";
+    font-size: 1.5rem;
+    color:#fff48b;
+    text-shadow: 1px 1px 2px black;
+    margin-bottom: 20px;
+}
+
+.aboutdescsub {
+    font-family: "Belanosima";
+    font-size: 1.1em;
+    color:white;
+    text-shadow: 1px 1px 2px black;
+}
+
+
+footer {
+  justify-content: center;
+  display: flex;
+}
+
+.footer {
+  justify-content: center;
+  display: flex;
+  height: 71px;
+  width: 1600px;
+  border-top-right-radius: 40px;
+  border-top-left-radius: 40px;
+  margin-top: 30px;
+  background-color: rgba(220, 82, 133, 0.333);
+  transition: transform 0.3s ease-in-out;
+}
+
+.footerhead {
+  font-family: "Zen Dots";
+  color: #fff48b;
+  font-size: 1.2rem;
+  gap: 30px;
+  display: flex;
+  padding: 20px;
+}
+
+.fa-brands {
+  transition: transform 0.3s ease-in-out;
+}
+
+.fa-brands:hover {
+  color: #ec297b;
+  cursor: pointer;
+  z-index: 100;
+  transform: scale(1.1);
+}
+
+
+
+@media (max-width: 650px) {
+
+  body {
+      min-height: 180vh;
+  }
+
+  .navi {
+      width: 100%;
+  }
+
+  .container {
+      display: flex;
+      justify-content: end;
+      border-radius: 40px;
+      align-items: center;
+      width: 400px;
+      background-image: none;
+  }
+  
+  .tabs {
+      width: 400px;
+  }
+  
+
+  .menu-list {
+      display: flex;
+      list-style: none;
+      gap: 10px;
+      align-items: center;
+      justify-content: space-between;
+      margin-right: 590px;
+      margin-top: 150px;
+  }
+
+  .menu-li > a {
+      font-size: 1rem;
+      font-family: "Zen Dots";
+      color: #EC297B;
+      font-weight: bolder;
+      margin-top: 10px;
+      text-decoration: none;
+      transition: 0.3s all ease;
+  }
+  
+  .menu-la > a {
+      font-size: 1rem;
+      font-family: "Zen Dots";
+      color: #FFF48B;
+      font-weight: bold;
+      margin-top: 10px;
+      text-decoration: none;
+      transition: 0.3s all ease;
+      background-color: #EC297B;
+      border-radius: 20px;
+      padding: 5px;
+      box-shadow:  1px 1px black;
+  }
+
+  .slogan {
+      margin-top: 60px;
+      width: 400px;
+      height: 200px;
+  }
+
+  .slogan1 {
+      font-size: 2.4rem;
+  }
+
+  .slogan2 {
+      font-size: 2.4rem;
+  }
+
+  .sub {
+      width: 400px;
+  }
+
+  .subhead {
+      width: 400px;
+      margin-bottom: 100px;
+      text-align: center;
+  }
+
+  .container3 {
+      width: 400px;
+      display: flex;
+      margin-top: 750px;
+      margin-left:0px;
+      position: absolute;
+  }
+
+  .Iam {
+      display: flex;
+      position: absolute;
+      margin-top: 400px;
+  }
+
+  .footer {
+      margin-top: 800px;
+  }
+}
+
+
+
+@media (max-width: 650px) {
+
+  body {
+      min-height: 260vh;
+  }
+
+  .navi {
+      width: 100%;
+  }
+
+  .container {
+      display: flex;
+      justify-content: end;
+      border-radius: 40px;
+      align-items: center;
+      width: 400px;
+      background-image: none;
+  }
+  
+  .tabs {
+      width: 400px;
+  }
+  
+
+  .menu-list {
+      display: flex;
+      list-style: none;
+      gap: 10px;
+      align-items: center;
+      justify-content: space-between;
+      margin-right: 590px;
+      margin-top: 150px;
+  }
+
+  .menu-li > a {
+      font-size: 1rem;
+      font-family: "Zen Dots";
+      color: #EC297B;
+      font-weight: bolder;
+      margin-top: 10px;
+      text-decoration: none;
+      transition: 0.3s all ease;
+  }
+  
+  .menu-la > a {
+      font-size: 1rem;
+      font-family: "Zen Dots";
+      color: #FFF48B;
+      font-weight: bold;
+      margin-top: 10px;
+      text-decoration: none;
+      transition: 0.3s all ease;
+      background-color: #EC297B;
+      border-radius: 20px;
+      padding: 5px;
+      box-shadow:  1px 1px black;
+  }
+
+  .abouthead {
+    margin-top: 40px;
+    margin-left: 20px;
+    margin-bottom: 40px;
+  }
+
+  .container2 {
+    flex-direction: column;
+  }
+
+  .containerabout {
+    flex-direction: column;
+    margin-right: 100px;
+
+  }
+
+  .footer {
+      margin-top: 1300px;
+  }
+}
