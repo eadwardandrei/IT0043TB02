@@ -1,0 +1,331 @@
+@import url('https://fonts.googleapis.com/css2?family=Potta+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Madimi+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Zen+Dots&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sarina&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Belanosima:wght@400;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Chettan+2&family=Calligraffitti&display=swap');
+
+* {
+    margin: 0;
+}
+
+body {
+    background-image: url(navi_page.png);
+    display: flex;
+    justify-content: center;
+    min-height: 98vh;
+  
+}
+
+.bg {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+nav .container {
+    display: flex;
+}
+
+.top_logo {
+    justify-content: start;
+    align-items: center;
+    display: flex;
+    margin-left: 20px;
+}
+
+.full_logo {
+    height: 100px;
+    cursor: pointer;
+    transition: transform 0.3s ease-in-out;
+}
+
+.full_logo:hover {
+    z-index: 100;
+    transform: scale(1.1);
+}
+
+.tabs {
+    display: flex;
+    height: 60px;
+    width: 1600px;
+    padding: 20px;
+    margin-top: 10px;
+}
+
+.container {
+    display: flex;
+    justify-content: end;
+    border-radius: 40px;
+    align-items: center;
+    padding: 20px;
+    margin-left: 490px;
+    background-image: url(slogan_bg.jpg);
+    text-shadow: 1px 1px 1px black;
+}
+
+
+.menu-list {
+    display: flex;
+    list-style: none;
+    gap: 60px;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+.menu-li > a {
+    font-size: 1.2rem;
+    font-family: "Zen Dots";
+    color: #EC297B;
+    font-weight: bolder;
+    margin-top: 10px;
+    text-decoration: none;
+    transition: 0.3s all ease;
+}
+
+.menu-la > a {
+    font-size: 1.2rem;
+    font-family: "Zen Dots";
+    color: #FFF48B;
+    font-weight: bold;
+    margin-top: 10px;
+    text-decoration: none;
+    transition: 0.3s all ease;
+    background-color: #EC297B;
+    border-radius: 20px;
+    padding: 5px;
+    box-shadow:  1px 1px black;
+}
+
+.menu-li > a:hover {
+    color: #FFF48B; 
+}
+
+.menu-la > a:hover {
+    color: #EC297B; 
+    background-color: #FFF48B;
+}
+
+.container2 {
+    padding: 30px;
+    height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.containercontactform{
+    background-color: #EC297B;
+    background-image: url(slogan_bg.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 40px;
+    height: 540px;
+    width: 800px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 2px 1px 4px black;
+}
+
+
+.contactformhead {
+    font-family: "Sarina";
+    font-size: 2rem;
+    text-shadow: 2px 1px 4px black;
+    color:#FFF48B;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.contactformboxx {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contactformbox {
+    
+    border-radius: 40px;
+    height: 390px;
+    width: 600px;
+    align-items: center;
+    font-family: "Belanosima";
+    color:#EC297B;
+    text-shadow: 1px 1px 2px black;
+    font-size: 1.5rem;
+    display: grid;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+
+#name {
+    border-radius: 20px;
+    background-color: white;
+    border-color: #EC297B;
+    height: 30px;
+    width: 400px;
+}
+
+#email {
+    border-radius: 20px;
+    background-color: white;
+    border-color: #EC297B;
+    height: 30px;
+    width: 400px;
+}
+
+#message {
+    border-radius: 20px;
+    background-color: white;
+    border-color: #EC297B;
+    border-width: 2.5px;
+    height: 200px;
+    width: 400px;
+}
+
+.contactbuttonn {
+    display: flex;
+    align-items: end;
+    justify-content: center;
+}
+
+.contactbutton {
+    font-family: "Potta One";
+    font-size: 1.3rem;
+    color:#FFF48B;
+    background-color: #EC297B;
+    border-radius: 40px;
+    text-shadow: 1px 1px 2px black;
+    width: 200px;
+    height: 40px;
+    margin-top: 20px;
+}
+
+.contactbutton:hover {
+    color:#EC297B;
+    background-color: #FFF48B;
+    box-shadow: 2px 1px 2px black;
+}
+
+.contactnameemail {
+    gap: 20px;
+}
+
+.contactmessagee {
+    display: flex;
+
+}
+
+  footer {
+    justify-content: center;
+    display: flex;
+  }
+
+.footer {
+    justify-content: center;
+    display: flex;
+    height: 71px;
+    width: 1600px;
+    border-top-right-radius: 40px;
+    border-top-left-radius: 40px;
+    margin-top: 30px;
+    background-color: rgba(220, 82, 133, 0.333);
+    transition: transform 0.3s ease-in-out;
+  }
+
+
+
+.footerhead {
+    font-family: "Zen Dots";
+    color:#FFF48B;
+    font-size: 1.2rem;
+    gap: 30px;
+    display: flex;
+    padding: 20px;
+  }
+
+  .fa-brands {
+    transition: transform 0.3s ease-in-out;
+  }
+
+  .fa-brands:hover {
+    color:#EC297B;
+    cursor: pointer;
+    z-index: 100;
+    transform: scale(1.1);
+  }
+
+
+  
+@media (max-width: 650px) {
+
+    body {
+        min-height: 50vh;
+    }
+  
+    .navi {
+        width: 100%;
+    }
+  
+    .container {
+        display: flex;
+        justify-content: end;
+        border-radius: 40px;
+        align-items: center;
+        width: 400px;
+        background-image: none;
+    }
+    
+    .tabs {
+        width: 400px;
+    }
+    
+  
+    .menu-list {
+        display: flex;
+        list-style: none;
+        gap: 10px;
+        align-items: center;
+        justify-content: space-between;
+        margin-right: 590px;
+        margin-top: 150px;
+    }
+  
+    .menu-li > a {
+        font-size: 1rem;
+        font-family: "Zen Dots";
+        color: #EC297B;
+        font-weight: bolder;
+        margin-top: 10px;
+        text-decoration: none;
+        transition: 0.3s all ease;
+    }
+    
+    .menu-la > a {
+        font-size: 1rem;
+        font-family: "Zen Dots";
+        color: #FFF48B;
+        font-weight: bold;
+        margin-top: 10px;
+        text-decoration: none;
+        transition: 0.3s all ease;
+        background-color: #EC297B;
+        border-radius: 20px;
+        padding: 5px;
+        box-shadow:  1px 1px black;
+    }
+  
+    .containercontactform {
+        width: 500px;
+    }
+  
+    .footer {
+        margin-top: 130px;
+    }
+  }
+  
