@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TechVerse Innovations</title>
+    <link rel="stylesheet" href ="style.css">
+    
+</head>
+<body>
+    <header>
+        <img src="/logo_wo_text.png" alt="logo" class="logo" />
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#contact">Contact Us</a></li>
+                <li><a href="#signup" class="navsignup">Sign Up</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <img src="/logo_w_text.png" alt="logo" class="homelogo" />
+            <h1>Innovating today, shaping tomorrow.</h1>
+            <button>Learn More</button>
+        </div>
+    </section>
+
+    <section id="services" class="section-services">
+        <h2 class="servicesheader">Work with us!</h2>
+        <div class="services">
+            
+            <button class="open-button" onclick="openForm1()">AI Solutions</button>
+            <div class="form-popup" id="myForm1">
+                <form action="/action_page.php" class="form-container">
+                    
+                    <div class="services-desc">
+                        <h1>AI Solutions</h1>
+                        We can hook your business up with AI-Powered Analytics for automated data analyzation, custom AI development to fit your specific business needs, virtual assistance for customer support, and AI maintenance for equipment monitoring.</div>
+
+                    <button type="button" class="btn cancel" onclick="closeForm1()">Close</button>
+
+                </form>
+              </div>
+
+              <button class="open-button" onclick="openForm2()">Blockchain Consulting</button>
+              <div class="form-popup" id="myForm2">
+                  <form action="/action_page.php" class="form-container">
+
+                    <div class="services-desc">
+                        <h1>Blockchain Consulting</h1>
+                        We provide secure data sharing for transparent data exchange, help facilitate cryptocurrencies, and manage smart development to automate processes like payments, supply chain tracking, and legal agreements.</div>
+
+                      <button type="button" class="btn cancel" onclick="closeForm2()">Close</button>
+                  </form>
+                </div>
+
+                <button class="open-button" onclick="openForm3()">IoT Services</button>
+                <div class="form-popup" id="myForm3">
+                    <form action="/action_page.php" class="form-container">
+  
+                      <div class="services-desc">
+                          <h1>IoT Services</h1>
+                          We offer assist in connecting and managing IoT devices, providing smart office solutions to improve energy efficiency and workplace automation, and design systems for real-time monitoring of inventory and security.</div>
+  
+                        <button type="button" class="btn cancel" onclick="closeForm3()">Close</button>
+                    </form>
+                  </div>
+
+                  <button class="open-button" onclick="openForm4()">Training and Consultation</button>
+                <div class="form-popup" id="myForm4">
+                    <form action="/action_page.php" class="form-container">
+  
+                      <div class="services-desc">
+                          <h1>Training and Consultation</h1>
+                          We offer emerging tech workshops to educate businesses on AI, Blockchain, and IoT applications, as well as provide strategic plans for digital transformation, further helping businesses and employees upskill for new tech adoption.</div>
+  
+                        <button type="button" class="btn cancel" onclick="closeForm4()">Close</button>
+                    </form>
+                  </div>
+
+                  <button class="open-button" onclick="openForm5()">Sustainability-Focused Tech</button>
+                  <div class="form-popup" id="myForm5">
+                      <form action="/action_page.php" class="form-container">
+    
+                        <div class="services-desc">
+                            <h1>Sustainability-Focused Tech</h1>
+                            We provide carbon footprint tracking using IoT and Blockchain to monitor and minimize environmental impact. This is to promote building systems that optimize energy usage in workplaces and help businesses adopt energy-efficient technologies.</div>
+    
+                          <button type="button" class="btn cancel" onclick="closeForm5()">Close</button>
+                      </form>
+                    </div>
+
+                    <button class="open-button" onclick="openForm6()">Custom Software Development</button>
+                  <div class="form-popup" id="myForm6">
+                      <form action="/action_page.php" class="form-container">
+    
+                        <div class="services-desc">
+                            <h1>Custom Software Development</h1>
+                            We help build tailored solutions to meet unique business needs, create mobile and web applications leveraging emerging tech, and offer scalable and secure cloud-based applications.</div>
+    
+                          <button type="button" class="btn cancel" onclick="closeForm6()">Close</button>
+                      </form>
+                    </div>
+        </div>
+
+                    <div class="services-formlink">
+                        <h2>Are you interested?</h2>
+                        Click on the button below to accomplish your service form! This will redirect you to answer a form where you can fill out the service/s you want to purchase!
+                        <div><button
+                        class="buttonform"
+                        onclick=" window.open('https://forms.gle/EJsNACVQYmsi782VA')">
+                        Services Form
+                      </div></button>
+                    </div>
+
+        
+    </section>
+
+    <section id="about" class="section">
+        <h2>TechVerse Innovations</h2>
+        <div class ="defaultprofile"><img src="defaultprofile.png"></div>
+
+        <p>John Marcus founded TechVerse Innovations to simplify tech adoption for businesses. Our mission is to empower businesses with innovative and sustainable technology solutions.</p>
+    </section>
+
+    <section id="contact" class="section-contact">
+        <h2>Reach Out To Us!</h2>
+        <form>
+            <input type="text" placeholder="Name" required>
+            <input type="email" placeholder="Email" required>
+            <textarea placeholder="Message" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+        <div class="contact-info">
+            <p>Email: info@techverse.com</p>
+            <p>Phone: +63 923 567 4890</p>
+            <div class="social-media">
+                <a href="#">LinkedIn</a>
+                <a href="#">Twitter</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="signup" class="section">
+        <h2>Join Us!</h2>
+        
+        
+
+    </section>
+
+    <footer>
+        <p>Innovating Today, Shaping Tomorrow</p>
+        <p>&copy; 2025 TechVerse Innovations</p>
+    </footer>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
